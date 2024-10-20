@@ -234,3 +234,51 @@
     color: #333;
   }
   
+
+  /* footer */
+
+  .footer {
+    background-color: #0C0A25;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .footer-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+  .address-section-content {
+    display: flex;
+    gap: 50px;
+   
+  }
+
+  .address-section-title{
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+
+  .address-section-email {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+
+  .email {
+    color: #8E9BA3;
+  }
+
+  .footer-address > div {
+    padding-bottom: 20px; 
+}
+
+.footer-expertise-title{
+  margin-bottom: 20px;
+}
+
+.footer-expertise p {
+  margin-bottom: 5px; /* Adds 5px space below each paragraph */
+}
