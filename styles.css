@@ -233,6 +233,59 @@
     margin: 15px;
     color: #333;
   }
+
+  /* testimonial */
+  .testimonial {
+    background-color: #fff;
+    margin-top: 50px;
+  }
+
+  .testimonial-content{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Image Section */
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Card Content */
+.card-content {
+    padding: 15px;
+}
+
+/* Title */
+.card-title {
+    font-size: 1.5rem;
+    margin: 0 0 10px;
+}
+
+/* Star Section */
+.stars {
+    color: #f4c542;
+    margin-bottom: 10px;
+}
+
+/* Paragraph */
+.card-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
   
 
   /* footer */
