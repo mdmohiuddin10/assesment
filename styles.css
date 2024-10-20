@@ -1,0 +1,236 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #f9fafc;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .logo img {
+    width: 150px;
+    height: auto;
+  }
+  
+  .nav-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+.btn {
+    padding: 5px 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+   font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* height: 100vh; Full screen height */
+    padding-top: 100px;
+    text-align: center;
+    background-color: #f9fafc;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+  }
+  
+  .badge {
+    display: inline-block;
+    background-color: #c8f3e0;
+    color: #1d8656;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .hero-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* height: 100vh; Full screen height */
+    padding: 50px;
+    text-align: center;
+    background-color: #f9fafc;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .hero p {
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .hero-buttons .btn,
+  .hero-buttons .btn-outline {
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .hero-buttons .btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+  }
+  
+  .hero-buttons .btn-outline {
+    background-color: transparent;
+    border: 2px solid #000;
+    color: #000;
+  }
+  
+  /* Hero Images */
+  .hero-images img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Stats Section */
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #fff;
+  }
+  
+  .stat h3 {
+    color: #1d8656;
+    font-size: 2rem;
+  }
+  
+  .stat p {
+    color: #666;
+  }
+  
+  /* Testimonial */
+  .testimonial {
+    text-align: center;
+    padding: 50px 20px;
+    font-style: italic;
+    background-color: #f9fafc;
+  }
+  
+  .author {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Partner Logos */
+  .partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .partners img {
+    width: 100px;
+    height: auto;
+  }
+
+  /*  */
+
+  /* Case Studies Section */
+  .case-studies {
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #f9fafc;
+    color: #333;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .case-studies h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .case-studies p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 30px;
+  }
+  
+  /* Case Studies Grid */
+  .case-studies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Case Study Card */
+  .card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .tags {
+    margin: 15px;
+  }
+  
+  .tag {
+    display: inline-block;
+    background-color: #c8f3e0;
+    color: #1d8656;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    margin-right: 5px;
+  }
+  
+  .card h3 {
+    font-size: 1.2rem;
+    margin: 15px;
+    color: #333;
+  }
+  

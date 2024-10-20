@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webermelon Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section>
+        <!---------- Navbar start ---------->
+        <header class="navbar">
+            <div class="logo">
+                <img src="https://webermelon.com/wp-content/uploads/2022/09/Group-171.png" alt="logo">
+            </div>
+            <div class="nav-links">
+                <a href="#">Services</a>
+                <a href="#">Contact us</a>
+                <a href="#">About us</a>
+            </div>
+            <div class="btn">
+                <button class="btn" onclick="showAlert()">Get Started</button>
+            </div>
+        </header>
+        <!----------- Navbar End ---------->
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <span class="badge">Offshore web and software development company</span>
+                <h2>Hire skilled developers to build your Website & Apps</h2>
+                <p>
+                    Webermelon is a Website and Software Development Company. We help startups
+                    and businesses set up remote teams and build their web or mobile applications and websites.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn-outline" onclick="scrollToSection('portfolio')">Portfolio</button>
+                    <button class="btn" onclick="scrollToSection('contact')">Start your project</button>
+                </div>
+            </div>
+        </section>
+        <div class="hero-images">
+            <img src="https://i.ibb.co.com/9HfJ0y5/pexels-thisisengineering-3861958.jpg" alt="Developers Working">
+            <img src="https://i.ibb.co.com/9HfJ0y5/pexels-thisisengineering-3861958.jpg" alt="Team in a Meeting">
+            <img src="https://i.ibb.co.com/9HfJ0y5/pexels-thisisengineering-3861958.jpg" alt="Work Environment">
+        </div>
+
+        <!-- Stats Section -->
+        <section class="stats" id="portfolio">
+            <div class="stat">
+                <h3>200+</h3>
+                <p>Projects Completed</p>
+            </div>
+            <div class="stat">
+                <h3>20+</h3>
+                <p>Countries Served</p>
+            </div>
+            <div class="stat">
+                <h3>150+</h3>
+                <p>Satisfied Customers</p>
+            </div>
+        </section>
+
+        <!-- Testimonial -->
+        <section class="testimonial">
+            <blockquote>
+                "This is the best place to get your website, software, or mobile apps developed. Or hiring skilled
+                developers as a team or individual."
+            </blockquote>
+            <p class="author">Tanjil Ahmed Fahim<br>CEO - Webermelon</p>
+        </section>
+
+        <!-- Partner Logos -->
+        <footer class="partners" id="contact">
+            <img src="crazygraph.png" alt="Crazygraph Logo">
+            <img src="byteeat.png" alt="Byteeat Logo">
+            <img src="drobo.png" alt="Drobo.ai Logo">
+            <img src="tent.png" alt="Tent Logo">
+            <img src="coople.png" alt="Coople Logo">
+        </footer>
+    </section>
+    <section class="case-studies">
+        <h1>Case Studies</h1>
+        <p>From designs to marketing, Webermelon serves all digital services your business needs to start and be
+            succeeded.</p>
+
+        <div class="case-studies-grid">
+            <!-- Case Study Card 1 -->
+            <div class="card">
+                <img src="task-management.png" alt="Task Management UI">
+                <div class="tags">
+                    <span class="tag">Website</span>
+                    <span class="tag">WordPress</span>
+                </div>
+                <h3>Web Application Development</h3>
+            </div>
+
+            <!-- Case Study Card 2 -->
+            <div class="card">
+                <img src="investment-dashboard.png" alt="Investment Dashboard UI">
+                <div class="tags">
+                    <span class="tag">Website</span>
+                    <span class="tag">WordPress</span>
+                </div>
+                <h3>Web Application Development</h3>
+            </div>
+
+            <!-- Case Study Card 3 -->
+            <div class="card">
+                <img src="analytics-dashboard.png" alt="Analytics Dashboard UI">
+                <div class="tags">
+                    <span class="tag">Website</span>
+                    <span class="tag">WordPress</span>
+                </div>
+                <h3>Web Application Development</h3>
+            </div>
+
+            <!-- Case Study Card 4 -->
+            <div class="card">
+                <img src="task-management-2.png" alt="Task Management UI">
+                <div class="tags">
+                    <span class="tag">Website</span>
+                    <span class="tag">WordPress</span>
+                </div>
+                <h3>Web Application Development</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
